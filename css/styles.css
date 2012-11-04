@@ -1,0 +1,151 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Harvard RoomFINDER
+ *
+ * Global stylesheet.
+ ***************************************************************************/
+
+
+html{ height: 100%; margin: 0; padding: 0; } 
+.test
+{
+	width:400px;
+	margin: 0 auto;
+}
+
+
+span#apology 
+	{ 
+		color:red;
+		font-size: 16pt;
+		font-family: georgia, arial;
+	}
+
+span#verify 
+	{ 
+		color:red;
+		font-size: 10pt;
+		font-family: arial, georgia;
+	}
+
+
+/* rounded corners code from http://www.spiffycorners.com/ */
+.login{display:block, 
+	width: 350px;}
+.login *{
+
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#FFFFFF}
+.login1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #919191;
+  border-right:1px solid #919191;
+  background:#cfcfcf}
+.login2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #525252;
+  border-right:1px solid #525252;
+  background:#dadada}
+.login3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #dadada;
+  border-right:1px solid #dadada;}
+.login4{
+  border-left:1px solid #919191;
+  border-right:1px solid #919191}
+.login5{
+  border-left:1px solid #cfcfcf;
+  border-right:1px solid #cfcfcf}
+.loginfg
+{
+	background:#FFFFFF
+}
+
+
+a img
+{
+    border: 0;
+}
+
+/* defaults for body */
+body
+{
+    background: #3f3f3f;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height:100%;
+    
+}
+
+div#test 
+{
+	color:white;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	height:100%;
+}
+
+/* center text in bottom div */
+div#bottom
+{
+    margin: 1em;
+    text-align: center;
+    background: #ffffff;
+}
+
+/* center text in middle div */
+div#middle
+{
+    text-align: center;
+    background: #ffffff;
+}
+
+/* center text in top div */
+div#top
+{
+    text-align: center;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+/* eliminate margins around forms */
+form
+{
+    margin: 20px;
+}
+
+/* collapse tables' borders and center tables themselves but not text therein */
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* pad but eliminate borders around table cells */
+td, th
+{
+    border: 0;
+    padding: .25em;
+}
+
+
+
+
